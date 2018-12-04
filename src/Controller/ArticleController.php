@@ -25,11 +25,5 @@ class ArticleController
     ));
     }
 
-    /**
-     * @Route("/freddy")
-     */
-    public function mercury()
-    {
-        return new Response("Another one bites the dust");
-    }
+  
 }
