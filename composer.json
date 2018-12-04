@@ -28,10 +28,13 @@
         "symfony/yaml": "4.2.*"
     },
     "require-dev": {
-        "symfony/debug-pack": "*",
+        "easycorp/easy-log-handler": "^1.0.7",
+        "symfony/debug-bundle": "^3.3|^4.0",
         "symfony/maker-bundle": "^1.0",
+        "symfony/monolog-bundle": "^3.0",
         "symfony/profiler-pack": "^1.0",
         "symfony/test-pack": "*",
+        "symfony/var-dumper": "^3.3|^4.0",
         "symfony/web-server-bundle": "4.2.*"
     },
     "config": {
