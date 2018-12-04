@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+{% block title %}Read {{ title }} {% endblock %}
+{% block body %}
+<h1>{{ title }}</h1>
+
+
+<div>
+
+    <p>
+        First paragraphh ipsum
+    </p>
+
+    <p>
+        Second paragraphh ipsum
+    </p>
+
+    <p>
+        Third paragraphh ipsum
+    </p>
+
+    <h2>Comments ({{ comments|length }}) </h2>
+
+    <ul>
+        {% for comment in comments %}
+            <li>{{ comment }}</li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+{% endblock %}
+
